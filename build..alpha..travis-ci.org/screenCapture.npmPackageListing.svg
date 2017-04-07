@@ -1,0 +1,167 @@
+<svg height="2622" width="720" xmlns="http://www.w3.org/2000/svg">
+<rect height="2622" fill="#555" width="720"></rect>
+<text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
+<tspan x="10" y="26">  0.  2017-04-07 03:04:21 +0000 23248591 byte  .</tspan>
+<tspan x="10" y="42">  1.  2017-04-07 03:04:21 +0000    10502 byte  CONTRIBUTING.md</tspan>
+<tspan x="10" y="58">  2.  2017-04-07 03:04:21 +0000    11379 byte  LICENSE</tspan>
+<tspan x="10" y="74">  3.  2017-04-07 03:04:21 +0000    14865 byte  README.md</tspan>
+<tspan x="10" y="90">  4.  2017-04-07 03:04:21 +0000       20 byte  ab-results-README.md-markdown-table.json</tspan>
+<tspan x="10" y="106">  5.  2017-04-07 03:04:21 +0000    38283 byte  ab-results-README.md.json</tspan>
+<tspan x="10" y="122">  6.  2017-04-07 03:04:21 +0000       20 byte  ab-results-docs-about-architecture.rst.md-markdow\</tspan>
+<tspan x="10" y="138">n-table.json</tspan>
+<tspan x="10" y="154">  7.  2017-04-07 03:04:21 +0000   147427 byte  ab-results-docs-about-architecture.rst.md.json</tspan>
+<tspan x="10" y="170">  8.  2017-04-07 03:04:21 +0000       20 byte  ab-results-docs-about-files-and-folders.rst.md-ma\</tspan>
+<tspan x="10" y="186">rkdown-table.json</tspan>
+<tspan x="10" y="202">  9.  2017-04-07 03:04:21 +0000       97 byte  ab-results-docs-about-files-and-folders.rst.md.js\</tspan>
+<tspan x="10" y="218">on</tspan>
+<tspan x="10" y="234"> 10.  2017-04-07 03:04:21 +0000       20 byte  ab-results-docs-about-glossary.rst.md-markdown-ta\</tspan>
+<tspan x="10" y="250">ble.json</tspan>
+<tspan x="10" y="266"> 11.  2017-04-07 03:04:21 +0000     4780 byte  ab-results-docs-about-glossary.rst.md.json</tspan>
+<tspan x="10" y="282"> 12.  2017-04-07 03:04:21 +0000       20 byte  ab-results-docs-about-hoodie-concepts.rst.md-mark\</tspan>
+<tspan x="10" y="298">down-table.json</tspan>
+<tspan x="10" y="314"> 13.  2017-04-07 03:04:21 +0000       97 byte  ab-results-docs-about-hoodie-concepts.rst.md.json</tspan>
+<tspan x="10" y="330"> 14.  2017-04-07 03:04:21 +0000       20 byte  ab-results-docs-about-how-hoodie-works.rst.md-mar\</tspan>
+<tspan x="10" y="346">kdown-table.json</tspan>
+<tspan x="10" y="362"> 15.  2017-04-07 03:04:21 +0000       97 byte  ab-results-docs-about-how-hoodie-works.rst.md.jso\</tspan>
+<tspan x="10" y="378">n</tspan>
+<tspan x="10" y="394"> 16.  2017-04-07 03:04:21 +0000       20 byte  ab-results-docs-about-requirements.rst.md-markdow\</tspan>
+<tspan x="10" y="410">n-table.json</tspan>
+<tspan x="10" y="426"> 17.  2017-04-07 03:04:21 +0000      884 byte  ab-results-docs-about-requirements.rst.md.json</tspan>
+<tspan x="10" y="442"> 18.  2017-04-07 03:04:21 +0000       20 byte  ab-results-docs-api-index.rst.md-markdown-table.j\</tspan>
+<tspan x="10" y="458">son</tspan>
+<tspan x="10" y="474"> 19.  2017-04-07 03:04:21 +0000     5637 byte  ab-results-docs-api-index.rst.md.json</tspan>
+<tspan x="10" y="490"> 20.  2017-04-07 03:04:21 +0000       20 byte  ab-results-docs-developers-CODING_STYLE.rst.md-ma\</tspan>
+<tspan x="10" y="506">rkdown-table.json</tspan>
+<tspan x="10" y="522"> 21.  2017-04-07 03:04:21 +0000    18167 byte  ab-results-docs-developers-CODING_STYLE.rst.md.js\</tspan>
+<tspan x="10" y="538">on</tspan>
+<tspan x="10" y="554"> 22.  2017-04-07 03:04:21 +0000       20 byte  ab-results-docs-developers-CONTRIBUTING.rst.md-ma\</tspan>
+<tspan x="10" y="570">rkdown-table.json</tspan>
+<tspan x="10" y="586"> 23.  2017-04-07 03:04:21 +0000    20578 byte  ab-results-docs-developers-CONTRIBUTING.rst.md.js\</tspan>
+<tspan x="10" y="602">on</tspan>
+<tspan x="10" y="618"> 24.  2017-04-07 03:04:21 +0000       20 byte  ab-results-docs-developers-CONTRIBUTING_DOCS.rst.\</tspan>
+<tspan x="10" y="634">md-markdown-table.json</tspan>
+<tspan x="10" y="650"> 25.  2017-04-07 03:04:21 +0000     7775 byte  ab-results-docs-developers-CONTRIBUTING_DOCS.rst.\</tspan>
+<tspan x="10" y="666">md.json</tspan>
+<tspan x="10" y="682"> 26.  2017-04-07 03:04:21 +0000       20 byte  ab-results-docs-developers-DOCS_STYLE.rst.md-mark\</tspan>
+<tspan x="10" y="698">down-table.json</tspan>
+<tspan x="10" y="714"> 27.  2017-04-07 03:04:21 +0000     1987 byte  ab-results-docs-developers-DOCS_STYLE.rst.md.json</tspan>
+<tspan x="10" y="730"> 28.  2017-04-07 03:04:21 +0000       20 byte  ab-results-docs-developers-TRIAGING.rst.md-markdo\</tspan>
+<tspan x="10" y="746">wn-table.json</tspan>
+<tspan x="10" y="762"> 29.  2017-04-07 03:04:21 +0000     7459 byte  ab-results-docs-developers-TRIAGING.rst.md.json</tspan>
+<tspan x="10" y="778"> 30.  2017-04-07 03:04:21 +0000       20 byte  ab-results-docs-guides-configuration.rst.md-markd\</tspan>
+<tspan x="10" y="794">own-table.json</tspan>
+<tspan x="10" y="810"> 31.  2017-04-07 03:04:21 +0000     2926 byte  ab-results-docs-guides-configuration.rst.md.json</tspan>
+<tspan x="10" y="826"> 32.  2017-04-07 03:04:21 +0000       20 byte  ab-results-docs-guides-plugins.rst.md-markdown-ta\</tspan>
+<tspan x="10" y="842">ble.json</tspan>
+<tspan x="10" y="858"> 33.  2017-04-07 03:04:21 +0000     8178 byte  ab-results-docs-guides-plugins.rst.md.json</tspan>
+<tspan x="10" y="874"> 34.  2017-04-07 03:04:21 +0000      754 byte  bin/quick-start-test.sh</tspan>
+<tspan x="10" y="890"> 35.  2017-04-07 03:04:21 +0000     2438 byte  bin/setup.js</tspan>
+<tspan x="10" y="906"> 36.  2017-04-07 03:04:21 +0000      332 byte  bin/start.js</tspan>
+<tspan x="10" y="922"> 37.  2017-04-07 03:04:21 +0000      250 byte  cli/app-defaults.js</tspan>
+<tspan x="10" y="938"> 38.  2017-04-07 03:04:21 +0000      464 byte  cli/assure-folders.js</tspan>
+<tspan x="10" y="954"> 39.  2017-04-07 03:04:21 +0000      264 byte  cli/compatibility-check.js</tspan>
+<tspan x="10" y="970"> 40.  2017-04-07 03:04:21 +0000      549 byte  cli/hapi-options.js</tspan>
+<tspan x="10" y="986"> 41.  2017-04-07 03:04:21 +0000      381 byte  cli/hoodie-defaults.js</tspan>
+<tspan x="10" y="1002"> 42.  2017-04-07 03:04:21 +0000     1259 byte  cli/index.js</tspan>
+<tspan x="10" y="1018"> 43.  2017-04-07 03:04:21 +0000      656 byte  cli/log.js</tspan>
+<tspan x="10" y="1034"> 44.  2017-04-07 03:04:21 +0000     3876 byte  cli/options.js</tspan>
+<tspan x="10" y="1050"> 45.  2017-04-07 03:04:21 +0000     2178 byte  cli/parse-options.js</tspan>
+<tspan x="10" y="1066"> 46.  2017-04-07 03:04:21 +0000     3548 byte  cli/utils/create-auth-dbUrl.js</tspan>
+<tspan x="10" y="1082"> 47.  2017-04-07 03:04:21 +0000      260 byte  cli/webroot-locator.js</tspan>
+<tspan x="10" y="1098"> 48.  2017-04-07 03:04:21 +0000      604 byte  docs/Makefile</tspan>
+<tspan x="10" y="1114"> 49.  2017-04-07 03:04:21 +0000   474014 byte  docs/about/1.jpg</tspan>
+<tspan x="10" y="1130"> 50.  2017-04-07 03:04:21 +0000   472444 byte  docs/about/2.jpg</tspan>
+<tspan x="10" y="1146"> 51.  2017-04-07 03:04:21 +0000   468654 byte  docs/about/3.jpg</tspan>
+<tspan x="10" y="1162"> 52.  2017-04-07 03:04:21 +0000   452055 byte  docs/about/4.jpg</tspan>
+<tspan x="10" y="1178"> 53.  2017-04-07 03:04:21 +0000   415944 byte  docs/about/5.jpg</tspan>
+<tspan x="10" y="1194"> 54.  2017-04-07 03:04:21 +0000    14677 byte  docs/about/architecture.rst</tspan>
+<tspan x="10" y="1210"> 55.  2017-04-07 03:04:21 +0000    13205 byte  docs/about/architecture.rst.md</tspan>
+<tspan x="10" y="1226"> 56.  2017-04-07 03:04:21 +0000     1155 byte  docs/about/files-and-folders.rst</tspan>
+<tspan x="10" y="1242"> 57.  2017-04-07 03:04:21 +0000     1127 byte  docs/about/files-and-folders.rst.md</tspan>
+<tspan x="10" y="1258"> 58.  2017-04-07 03:04:21 +0000     1534 byte  docs/about/glossary.rst</tspan>
+<tspan x="10" y="1274"> 59.  2017-04-07 03:04:21 +0000     1463 byte  docs/about/glossary.rst.md</tspan>
+<tspan x="10" y="1290"> 60.  2017-04-07 03:04:21 +0000     4933 byte  docs/about/hoodie-concepts.rst</tspan>
+<tspan x="10" y="1306"> 61.  2017-04-07 03:04:21 +0000     4794 byte  docs/about/hoodie-concepts.rst.md</tspan>
+<tspan x="10" y="1322"> 62.  2017-04-07 03:04:21 +0000     2181 byte  docs/about/how-hoodie-works.rst</tspan>
+<tspan x="10" y="1338"> 63.  2017-04-07 03:04:21 +0000     2146 byte  docs/about/how-hoodie-works.rst.md</tspan>
+<tspan x="10" y="1354"> 64.  2017-04-07 03:04:21 +0000      737 byte  docs/about/requirements.rst</tspan>
+<tspan x="10" y="1370"> 65.  2017-04-07 03:04:21 +0000      716 byte  docs/about/requirements.rst.md</tspan>
+<tspan x="10" y="1386"> 66.  2017-04-07 03:04:21 +0000      711 byte  docs/api/client/hoodie.account.rst</tspan>
+<tspan x="10" y="1402"> 67.  2017-04-07 03:04:21 +0000      705 byte  docs/api/client/hoodie.account.rst.md</tspan>
+<tspan x="10" y="1418"> 68.  2017-04-07 03:04:21 +0000      263 byte  docs/api/client/hoodie.connection-status.rst</tspan>
+<tspan x="10" y="1434"> 69.  2017-04-07 03:04:21 +0000      263 byte  docs/api/client/hoodie.connection-status.rst.md</tspan>
+<tspan x="10" y="1450"> 70.  2017-04-07 03:04:21 +0000      209 byte  docs/api/client/hoodie.log.rst</tspan>
+<tspan x="10" y="1466"> 71.  2017-04-07 03:04:21 +0000      209 byte  docs/api/client/hoodie.log.rst.md</tspan>
+<tspan x="10" y="1482"> 72.  2017-04-07 03:04:21 +0000      832 byte  docs/api/client/hoodie.rst</tspan>
+<tspan x="10" y="1498"> 73.  2017-04-07 03:04:21 +0000      815 byte  docs/api/client/hoodie.rst.md</tspan>
+<tspan x="10" y="1514"> 74.  2017-04-07 03:04:21 +0000      306 byte  docs/api/client/hoodie.store.rst</tspan>
+<tspan x="10" y="1530"> 75.  2017-04-07 03:04:21 +0000      306 byte  docs/api/client/hoodie.store.rst.md</tspan>
+<tspan x="10" y="1546"> 76.  2017-04-07 03:04:21 +0000     1620 byte  docs/api/index.rst</tspan>
+<tspan x="10" y="1562"> 77.  2017-04-07 03:04:21 +0000     1429 byte  docs/api/index.rst.md</tspan>
+<tspan x="10" y="1578"> 78.  2017-04-07 03:04:21 +0000     5419 byte  docs/conf.py</tspan>
+<tspan x="10" y="1594"> 79.  2017-04-07 03:04:21 +0000     5227 byte  docs/developers/CODING_STYLE.rst</tspan>
+<tspan x="10" y="1610"> 80.  2017-04-07 03:04:21 +0000     4880 byte  docs/developers/CODING_STYLE.rst.md</tspan>
+<tspan x="10" y="1626"> 81.  2017-04-07 03:04:21 +0000    10842 byte  docs/developers/CONTRIBUTING.rst</tspan>
+<tspan x="10" y="1642"> 82.  2017-04-07 03:04:21 +0000    10649 byte  docs/developers/CONTRIBUTING.rst.md</tspan>
+<tspan x="10" y="1658"> 83.  2017-04-07 03:04:21 +0000     2850 byte  docs/developers/CONTRIBUTING_DOCS.rst</tspan>
+<tspan x="10" y="1674"> 84.  2017-04-07 03:04:21 +0000     2798 byte  docs/developers/CONTRIBUTING_DOCS.rst.md</tspan>
+<tspan x="10" y="1690"> 85.  2017-04-07 03:04:21 +0000     5924 byte  docs/developers/DOCS_STYLE.rst</tspan>
+<tspan x="10" y="1706"> 86.  2017-04-07 03:04:21 +0000     5507 byte  docs/developers/DOCS_STYLE.rst.md</tspan>
+<tspan x="10" y="1722"> 87.  2017-04-07 03:04:21 +0000     4913 byte  docs/developers/TRIAGING.rst</tspan>
+<tspan x="10" y="1738"> 88.  2017-04-07 03:04:21 +0000     4896 byte  docs/developers/TRIAGING.rst.md</tspan>
+<tspan x="10" y="1754"> 89.  2017-04-07 03:04:21 +0000    22292 byte  docs/docs-chicken.png</tspan>
+<tspan x="10" y="1770"> 90.  2017-04-07 03:04:21 +0000     7071 byte  docs/guides/configuration.rst</tspan>
+<tspan x="10" y="1786"> 91.  2017-04-07 03:04:21 +0000     3862 byte  docs/guides/configuration.rst.md</tspan>
+<tspan x="10" y="1802"> 92.  2017-04-07 03:04:21 +0000     6843 byte  docs/guides/deployment.rst</tspan>
+<tspan x="10" y="1818"> 93.  2017-04-07 03:04:21 +0000      983 byte  docs/guides/plugins.rst</tspan>
+<tspan x="10" y="1834"> 94.  2017-04-07 03:04:21 +0000      987 byte  docs/guides/plugins.rst.md</tspan>
+<tspan x="10" y="1850"> 95.  2017-04-07 03:04:21 +0000     2889 byte  docs/guides/quickstart.rst</tspan>
+<tspan x="10" y="1866"> 96.  2017-04-07 03:04:21 +0000      662 byte  docs/index.rst</tspan>
+<tspan x="10" y="1882"> 97.  2017-04-07 03:04:21 +0000       42 byte  docs/index.rst.md</tspan>
+<tspan x="10" y="1898"> 98.  2017-04-07 03:04:21 +0000     2119 byte  docs/welcome.rst</tspan>
+<tspan x="10" y="1914"> 99.  2017-04-07 03:04:21 +0000     2100 byte  docs/welcome.rst.md</tspan>
+<tspan x="10" y="1930">100.  2017-04-07 03:04:21 +0000     4049 byte  package.json</tspan>
+<tspan x="10" y="1946">101.  2017-04-07 03:04:21 +0000 20384334 byte  pandoc-1.16.0.2-1-amd64.deb</tspan>
+<tspan x="10" y="1962">102.  2017-04-07 03:04:21 +0000      228 byte  public/404.html</tspan>
+<tspan x="10" y="1978">103.  2017-04-07 03:04:21 +0000     1614 byte  public/account/client.css</tspan>
+<tspan x="10" y="1994">104.  2017-04-07 03:04:21 +0000     3936 byte  public/account/client.js</tspan>
+<tspan x="10" y="2010">105.  2017-04-07 03:04:21 +0000     2686 byte  public/account/index.html</tspan>
+<tspan x="10" y="2026">106.  2017-04-07 03:04:21 +0000     5935 byte  public/account/low-profile-dog-1.png</tspan>
+<tspan x="10" y="2042">107.  2017-04-07 03:04:21 +0000     1614 byte  public/index.html</tspan>
+<tspan x="10" y="2058">108.  2017-04-07 03:04:21 +0000     5935 byte  public/low-profile-dog-1.png</tspan>
+<tspan x="10" y="2074">109.  2017-04-07 03:04:21 +0000      290 byte  public/store/index.html</tspan>
+<tspan x="10" y="2090">110.  2017-04-07 03:04:21 +0000      768 byte  public/style.css</tspan>
+<tspan x="10" y="2106">111.  2017-04-07 03:04:21 +0000      751 byte  server/index.js</tspan>
+<tspan x="10" y="2122">112.  2017-04-07 03:04:21 +0000      906 byte  server/plugins/client/bundle-handler-factory.js</tspan>
+<tspan x="10" y="2138">113.  2017-04-07 03:04:21 +0000      800 byte  server/plugins/client/bundle-writer.js</tspan>
+<tspan x="10" y="2154">114.  2017-04-07 03:04:21 +0000     3002 byte  server/plugins/client/bundle.js</tspan>
+<tspan x="10" y="2170">115.  2017-04-07 03:04:21 +0000      784 byte  server/plugins/client/index.js</tspan>
+<tspan x="10" y="2186">116.  2017-04-07 03:04:21 +0000     1578 byte  server/plugins/good-hoodie.js</tspan>
+<tspan x="10" y="2202">117.  2017-04-07 03:04:21 +0000     1021 byte  server/plugins/index.js</tspan>
+<tspan x="10" y="2218">118.  2017-04-07 03:04:21 +0000      749 byte  server/plugins/logger.js</tspan>
+<tspan x="10" y="2234">119.  2017-04-07 03:04:21 +0000      586 byte  server/plugins/maybe-force-gzip.js</tspan>
+<tspan x="10" y="2250">120.  2017-04-07 03:04:21 +0000     2311 byte  server/plugins/public.js</tspan>
+<tspan x="10" y="2266">121.  2017-04-07 03:04:21 +0000       33 byte  server/plugins/resolver.js</tspan>
+<tspan x="10" y="2282">122.  2017-04-07 03:04:21 +0000      571 byte  test/README.md</tspan>
+<tspan x="10" y="2298">123.  2017-04-07 03:04:21 +0000       89 byte  test/fixture/app-dir-with-server/hoodie/server.js</tspan>
+<tspan x="10" y="2314">124.  2017-04-07 03:04:21 +0000     2293 byte  test/integration/force-gzip-test.js</tspan>
+<tspan x="10" y="2330">125.  2017-04-07 03:04:21 +0000     2119 byte  test/integration/handle-404-test.js</tspan>
+<tspan x="10" y="2346">126.  2017-04-07 03:04:21 +0000     1708 byte  test/integration/handle-hoodie-request-test.js</tspan>
+<tspan x="10" y="2362">127.  2017-04-07 03:04:21 +0000     1852 byte  test/integration/server-test.js</tspan>
+<tspan x="10" y="2378">128.  2017-04-07 03:04:21 +0000     1155 byte  test/integration/smoke-test.js</tspan>
+<tspan x="10" y="2394">129.  2017-04-07 03:04:21 +0000      926 byte  test/unit/cli/app-defaults-test.js</tspan>
+<tspan x="10" y="2410">130.  2017-04-07 03:04:21 +0000     1559 byte  test/unit/cli/assure-folders-test.js</tspan>
+<tspan x="10" y="2426">131.  2017-04-07 03:04:21 +0000      712 byte  test/unit/cli/hoodie-default-test.js</tspan>
+<tspan x="10" y="2442">132.  2017-04-07 03:04:21 +0000     3437 byte  test/unit/cli/options-test.js</tspan>
+<tspan x="10" y="2458">133.  2017-04-07 03:04:21 +0000     8901 byte  test/unit/cli/parse-options-test.js</tspan>
+<tspan x="10" y="2474">134.  2017-04-07 03:04:21 +0000     2348 byte  test/unit/cli/webroot-locator-test.js</tspan>
+<tspan x="10" y="2490">135.  2017-04-07 03:04:21 +0000     3078 byte  test/unit/client/bundle-handler-factory-test.js</tspan>
+<tspan x="10" y="2506">136.  2017-04-07 03:04:21 +0000     1921 byte  test/unit/client/bundle-writer-test.js</tspan>
+<tspan x="10" y="2522">137.  2017-04-07 03:04:21 +0000     1669 byte  test/unit/client/client-test.js</tspan>
+<tspan x="10" y="2538">138.  2017-04-07 03:04:21 +0000     9936 byte  test/unit/plugins-client-bundle-test.js</tspan>
+<tspan x="10" y="2554">139.  2017-04-07 03:04:21 +0000     1173 byte  test/unit/server/index-test.js</tspan>
+<tspan x="10" y="2570">140.  2017-04-07 03:04:21 +0000     1111 byte  test/unit/server/loader-test.js</tspan>
+<tspan x="10" y="2586">141.  2017-04-07 03:04:21 +0000     4787 byte  test/unit/server/logger-test.js</tspan>
+<tspan x="10" y="2602">142.  2017-04-07 03:04:21 +0000      903 byte  test/unit/server/public-test.js</tspan>
+</text>
+</svg>

@@ -1,0 +1,132 @@
+<html><head></head><body><div class="apidocDiv">
+<style>
+/*csslint
+*/
+.apidocDiv {
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.apidocDiv a[href] {
+    color: #33f;
+    font-weight: bold;
+    text-decoration: none;
+}
+.apidocDiv a[href]:hover {
+    text-decoration: underline;
+}
+.apidocCodeCommentSpan {
+    background: #bbf;
+    color: #000;
+    display: block;
+}
+.apidocCodeKeywordSpan {
+    color: #d00;
+    font-weight: bold;
+}
+.apidocCodePre {
+    background: #eef;
+    border: 1px solid;
+    color: #777;
+    padding: 5px;
+    white-space: pre-wrap;
+}
+.apidocFooterDiv {
+    margin-top: 20px;
+    text-align: center;
+}
+.apidocModuleLi {
+    margin-top: 10px;
+}
+.apidocSectionDiv {
+    border-top: 1px solid;
+    margin-top: 20px;
+}
+.apidocSignatureSpan {
+    color: #777;
+    font-weight: bold;
+}
+</style>
+<h1>api documentation for
+    <a href="https://github.com/hoodiehq/hoodie#readme">hoodie (v28.1.0)</a>
+</h1>
+<h4>A generic backend with a client API for Offline First applications</h4>
+<div class="apidocSectionDiv"><a href="#apidoc.tableOfContents" id="apidoc.tableOfContents"><h1>table of contents</h1></a><ol>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.hoodie">module hoodie</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.hoodie.register">
+            function <span class="apidocSignatureSpan">hoodie.</span>register
+            <span class="apidocSignatureSpan">(server, options, next)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+</ol></div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.hoodie" id="apidoc.module.hoodie">module hoodie</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.hoodie.register" id="apidoc.element.hoodie.register">
+        function <span class="apidocSignatureSpan">hoodie.</span>register
+        <span class="apidocSignatureSpan">(server, options, next)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function register(server, options, next) {
+  options = _.cloneDeep(options)
+  _.defaultsDeep(options, {
+    paths: {
+      public: 'public'
+    }
+  })
+
+  server.ext('onPreResponse', corsHeaders)
+
+  server.register({register: hoodieServer, options: options}, function (error) {
+    if (error) {
+      return next(error)
+    }
+    registerPlugins(server, options, function (error) {
+      if (error) {
+        return next(error)
+      }
+
+      next(null, server, options)
+    })
+  })
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+var server = new Hapi.Server()
+server.connection({
+host: 'localhost',
+port: 8000
+})
+
+server.<span class="apidocCodeKeywordSpan">register</span>({
+register: hoodie,
+options: { // pass options here
+  inMemory: true,
+  public: 'dist'
+}
+}, function (error) {
+if (error) {
+...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocFooterDiv">
+    [ this document was created with
+    <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a>
+    ]
+</div>
+</div>
+</body></html>
