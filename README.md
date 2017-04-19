@@ -1,9 +1,14 @@
-# api documentation for  [hoodie (v28.1.0)](https://github.com/hoodiehq/hoodie#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-hoodie.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-hoodie) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-hoodie.svg)](https://travis-ci.org/npmdoc/node-npmdoc-hoodie)
+# npmdoc-hoodie
+
+#### api documentation for  [hoodie (v28.1.0)](https://github.com/hoodiehq/hoodie#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-hoodie.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-hoodie) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-hoodie.svg)](https://travis-ci.org/npmdoc/node-npmdoc-hoodie)
+
 #### A generic backend with a client API for Offline First applications
 
-[![NPM](https://nodei.co/npm/hoodie.png?downloads=true)](https://www.npmjs.com/package/hoodie)
+[![NPM](https://nodei.co/npm/hoodie.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/hoodie)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-hoodie/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-hoodie_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-hoodie/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-hoodie/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-hoodie/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-hoodie/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-hoodie/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-hoodie/build/screenCapture.npmPackageListing.svg)
 
@@ -85,33 +90,26 @@
     "main": "server/index.js",
     "maintainers": [
         {
-            "name": "boennemann",
-            "email": "stephan@boennemann.me"
+            "name": "boennemann"
         },
         {
-            "name": "caolan",
-            "email": "caolan.mcmahon@gmail.com"
+            "name": "caolan"
         },
         {
-            "name": "gr2m",
-            "email": "gregor@martynus.net"
+            "name": "gr2m"
         },
         {
-            "name": "hoodie",
-            "email": "org@thehoodiefirm.com"
+            "name": "hoodie"
         },
         {
-            "name": "jan",
-            "email": "jan@apache.org"
+            "name": "jan"
         },
         {
-            "name": "svnlto",
-            "email": "me@svenlito.com"
+            "name": "svnlto"
         }
     ],
     "name": "hoodie",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/hoodiehq/hoodie.git"
@@ -127,65 +125,6 @@
     },
     "version": "28.1.0"
 }
-```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module hoodie](#apidoc.module.hoodie)
-1.  [function <span class="apidocSignatureSpan">hoodie.</span>register (server, options, next)](#apidoc.element.hoodie.register)
-
-
-
-# <a name="apidoc.module.hoodie"></a>[module hoodie](#apidoc.module.hoodie)
-
-#### <a name="apidoc.element.hoodie.register"></a>[function <span class="apidocSignatureSpan">hoodie.</span>register (server, options, next)](#apidoc.element.hoodie.register)
-- description and source-code
-```javascript
-function register(server, options, next) {
-  options = _.cloneDeep(options)
-  _.defaultsDeep(options, {
-    paths: {
-      public: 'public'
-    }
-  })
-
-  server.ext('onPreResponse', corsHeaders)
-
-  server.register({register: hoodieServer, options: options}, function (error) {
-    if (error) {
-      return next(error)
-    }
-    registerPlugins(server, options, function (error) {
-      if (error) {
-        return next(error)
-      }
-
-      next(null, server, options)
-    })
-  })
-}
-```
-- example usage
-```shell
-...
-
-var server = new Hapi.Server()
-server.connection({
-host: 'localhost',
-port: 8000
-})
-
-server.register({
-register: hoodie,
-options: { // pass options here
-  inMemory: true,
-  public: 'dist'
-}
-}, function (error) {
-if (error) {
-...
 ```
 
 
