@@ -21,12 +21,14 @@
 ```json
 
 {
-    "author": {
-        "name": "The Hoodie Community"
-    },
+    "name": "hoodie",
+    "version": "28.1.0",
+    "description": "A generic backend with a client API for Offline First applications",
+    "author": "The Hoodie Community",
     "bin": {
         "hoodie": "./bin/start.js"
     },
+    "main": "server/index.js",
     "bugs": {
         "url": "https://github.com/hoodiehq/hoodie/issues"
     },
@@ -56,7 +58,6 @@
         "semver": "^5.1.0",
         "yargs": "^6.0.0"
     },
-    "description": "A generic backend with a client API for Offline First applications",
     "devDependencies": {
         "coveralls": "^2.11.9",
         "nock": "^9.0.0",
@@ -69,61 +70,31 @@
         "tap": "^10.0.0",
         "textlint": "^6.8.0",
         "textlint-rule-common-misspellings": "^1.0.1",
-        "textlint-rule-no-dead-link": "^3.1.1",
-        "textlint-rule-rousseau": "^1.4.5"
-    },
-    "directories": {},
-    "dist": {
-        "shasum": "04e828950cde0b75be4c06d6dae654c27b795faf",
-        "tarball": "https://registry.npmjs.org/hoodie/-/hoodie-28.1.0.tgz"
+        "textlint-rule-rousseau": "^1.4.5",
+        "textlint-rule-no-dead-link": "^3.1.1"
     },
     "engines": {
         "node": ">=4"
     },
-    "gitHead": "b848323599b512a0ef9297948c6df6a3147bf395",
     "homepage": "https://github.com/hoodiehq/hoodie#readme",
     "keywords": [
         "nobackend",
         "offlinefirst"
     ],
     "license": "Apache-2.0",
-    "main": "server/index.js",
-    "maintainers": [
-        {
-            "name": "boennemann"
-        },
-        {
-            "name": "caolan"
-        },
-        {
-            "name": "gr2m"
-        },
-        {
-            "name": "hoodie"
-        },
-        {
-            "name": "jan"
-        },
-        {
-            "name": "svnlto"
-        }
-    ],
-    "name": "hoodie",
-    "optionalDependencies": {},
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/hoodiehq/hoodie.git"
+        "url": "https://github.com/hoodiehq/hoodie.git"
     },
     "scripts": {
         "coverage": "nyc report --reporter=text-lcov | coveralls",
-        "postinstall": "node ./bin/setup.js",
-        "pretest": "standard",
         "semantic-release": "semantic-release pre && npm publish && semantic-release post",
         "start": "./bin/start.js",
+        "pretest": "standard",
         "test": "nyc tap --no-cov ./test/{unit,integration}/**/*-test.js",
+        "postinstall": "node ./bin/setup.js",
         "textlint": "textlint docs/**/*.md README.md"
-    },
-    "version": "28.1.0"
+    }
 }
 ```
 
