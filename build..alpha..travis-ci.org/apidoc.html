@@ -63,8 +63,96 @@
 
         <li>
 
+            <a class="apidocElementLiA" href="#apidoc.element.hoodie.good_hoodie">
+            function <span class="apidocSignatureSpan">hoodie.</span>good_hoodie
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
             <a class="apidocElementLiA" href="#apidoc.element.hoodie.register">
             function <span class="apidocSignatureSpan">hoodie.</span>register
+            <span class="apidocSignatureSpan">(server, options, next)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">hoodie.</span>logger</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">hoodie.</span>maybe_force_gzip</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">hoodie.</span>public</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.hoodie.good_hoodie">module hoodie.good_hoodie</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.hoodie.good_hoodie.good_hoodie">
+            function <span class="apidocSignatureSpan">hoodie.</span>good_hoodie
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.hoodie.good_hoodie.super_">
+            function <span class="apidocSignatureSpan">hoodie.good_hoodie.</span>super_
+            <span class="apidocSignatureSpan">(options)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.hoodie.logger">module hoodie.logger</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.hoodie.logger.register">
+            function <span class="apidocSignatureSpan">hoodie.logger.</span>register
+            <span class="apidocSignatureSpan">(server, options, next)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.hoodie.maybe_force_gzip">module hoodie.maybe_force_gzip</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.hoodie.maybe_force_gzip.register">
+            function <span class="apidocSignatureSpan">hoodie.maybe_force_gzip.</span>register
+            <span class="apidocSignatureSpan">(server, options, next)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.hoodie.public">module hoodie.public</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.hoodie.public.register">
+            function <span class="apidocSignatureSpan">hoodie.public.</span>register
             <span class="apidocSignatureSpan">(server, options, next)</span>
             </a>
 
@@ -76,6 +164,27 @@
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.hoodie" id="apidoc.module.hoodie">module hoodie</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.hoodie.good_hoodie" id="apidoc.element.hoodie.good_hoodie">
+        function <span class="apidocSignatureSpan">hoodie.</span>good_hoodie
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function HoodieTransform() {
+  if (!(this instanceof HoodieTransform)) {
+    return new HoodieTransform()
+  }
+  Transform.call(this, {
+    objectMode: true,
+    transform: transform
+  })
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
 
 
     <h2>
@@ -107,6 +216,311 @@
       next(null, server, options)
     })
   })
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+var server = new Hapi.Server()
+server.connection({
+host: &#x27;localhost&#x27;,
+port: 8000
+})
+
+server.<span class="apidocCodeKeywordSpan">register</span>({
+register: hoodie,
+options: { // pass options here
+  inMemory: true,
+  public: &#x27;dist&#x27;
+}
+}, function (error) {
+if (error) {
+...</pre></li>
+    </ul>
+
+
+
+
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.hoodie.good_hoodie" id="apidoc.module.hoodie.good_hoodie">module hoodie.good_hoodie</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.hoodie.good_hoodie.good_hoodie" id="apidoc.element.hoodie.good_hoodie.good_hoodie">
+        function <span class="apidocSignatureSpan">hoodie.</span>good_hoodie
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function HoodieTransform() {
+  if (!(this instanceof HoodieTransform)) {
+    return new HoodieTransform()
+  }
+  Transform.call(this, {
+    objectMode: true,
+    transform: transform
+  })
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.hoodie.good_hoodie.super_" id="apidoc.element.hoodie.good_hoodie.super_">
+        function <span class="apidocSignatureSpan">hoodie.good_hoodie.</span>super_
+        <span class="apidocSignatureSpan">(options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Transform(options) {
+  if (!(this instanceof Transform))
+    return new Transform(options);
+
+  Duplex.call(this, options);
+
+  this._transformState = new TransformState(this);
+
+  var stream = this;
+
+  // start out asking for a readable event once data is transformed.
+  this._readableState.needReadable = true;
+
+  // we have implemented the _read method, and done the other things
+  // that Readable wants before the first _read call, so unset the
+  // sync guard flag.
+  this._readableState.sync = false;
+
+  if (options) {
+    if (typeof options.transform === &#x27;function&#x27;)
+      this._transform = options.transform;
+
+    if (typeof options.flush === &#x27;function&#x27;)
+      this._flush = options.flush;
+  }
+
+  // When the writable side finishes, then flush out anything remaining.
+  this.once(&#x27;prefinish&#x27;, function() {
+    if (typeof this._flush === &#x27;function&#x27;)
+      this._flush(function(er) {
+        done(stream, er);
+      });
+    else
+      done(stream);
+  });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.hoodie.logger" id="apidoc.module.hoodie.logger">module hoodie.logger</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.hoodie.logger.register" id="apidoc.element.hoodie.logger.register">
+        function <span class="apidocSignatureSpan">hoodie.logger.</span>register
+        <span class="apidocSignatureSpan">(server, options, next)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function register(server, options, next) {
+  server.register({
+    register: require(&#x27;good&#x27;),
+    options: {
+      ops: {
+        interval: 30000
+      },
+      reporters: {
+        hoodieReporter: [
+          {
+            module: &#x27;good-squeeze&#x27;,
+            name: &#x27;Squeeze&#x27;,
+            args: [
+              {
+                ops: &#x27;*&#x27;,
+                response: &#x27;*&#x27;,
+                log: &#x27;*&#x27;,
+                error: &#x27;*&#x27;,
+                request: &#x27;*&#x27;
+              }
+            ]
+          },
+          {
+            module: path.join(__dirname, &#x27;good-hoodie&#x27;)
+          }
+        ]
+      }
+    }
+  }, next)
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+var server = new Hapi.Server()
+server.connection({
+host: &#x27;localhost&#x27;,
+port: 8000
+})
+
+server.<span class="apidocCodeKeywordSpan">register</span>({
+register: hoodie,
+options: { // pass options here
+  inMemory: true,
+  public: &#x27;dist&#x27;
+}
+}, function (error) {
+if (error) {
+...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.hoodie.maybe_force_gzip" id="apidoc.module.hoodie.maybe_force_gzip">module hoodie.maybe_force_gzip</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.hoodie.maybe_force_gzip.register" id="apidoc.element.hoodie.maybe_force_gzip.register">
+        function <span class="apidocSignatureSpan">hoodie.maybe_force_gzip.</span>register
+        <span class="apidocSignatureSpan">(server, options, next)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function register(server, options, next) {
+  server.ext(&#x27;onPreHandler&#x27;, function maybeForceGzip (request, reply) {
+    if (request.query.force_gzip === &#x27;true&#x27;) {
+      request.info.acceptEncoding = &#x27;gzip&#x27;
+    }
+    reply.continue()
+  })
+
+  next()
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+var server = new Hapi.Server()
+server.connection({
+host: &#x27;localhost&#x27;,
+port: 8000
+})
+
+server.<span class="apidocCodeKeywordSpan">register</span>({
+register: hoodie,
+options: { // pass options here
+  inMemory: true,
+  public: &#x27;dist&#x27;
+}
+}, function (error) {
+if (error) {
+...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.hoodie.public" id="apidoc.module.hoodie.public">module hoodie.public</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.hoodie.public.register" id="apidoc.element.hoodie.public.register">
+        function <span class="apidocSignatureSpan">hoodie.public.</span>register
+        <span class="apidocSignatureSpan">(server, options, next)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function register(server, options, next) {
+  var publicFolder = options.config.paths.public
+  var hoodieVersion
+  try {
+    hoodieVersion = require(&#x27;hoodie/package.json&#x27;).version
+  } catch (err) {
+    hoodieVersion = &#x27;development&#x27;
+  }
+
+  var hoodiePublicPath = pathJoin(require.resolve(&#x27;../../package.json&#x27;), &#x27;..&#x27;, &#x27;public&#x27;)
+  var adminPublicPath = pathJoin(require.resolve(&#x27;@hoodie/admin/package.json&#x27;), &#x27;..&#x27;, &#x27;dist&#x27;)
+
+  server.route([{
+    method: &#x27;GET&#x27;,
+    path: &#x27;/{p*}&#x27;,
+    handler: {
+      directory: {
+        path: publicFolder,
+        listing: false,
+        index: true
+      }
+    }
+  }, {
+    method: &#x27;GET&#x27;,
+    path: &#x27;/hoodie/{p*}&#x27;,
+    handler: {
+      directory: {
+        path: hoodiePublicPath,
+        listing: false,
+        index: true
+      }
+    }
+  }, {
+    method: &#x27;GET&#x27;,
+    path: &#x27;/hoodie/admin/{p*}&#x27;,
+    handler: {
+      directory: {
+        path: adminPublicPath,
+        listing: false,
+        index: true
+      }
+    }
+  }, {
+    method: &#x27;GET&#x27;,
+    path: &#x27;/hoodie/info.json&#x27;,
+    handler: function (request, reply) {
+      reply({
+        hoodie: true,
+        name: options.config.name,
+        version: hoodieVersion
+      })
+    }
+  }])
+
+  // serve app whenever an html page is requested
+  // and no other document is available
+  var app = pathJoin(publicFolder, &#x27;index.html&#x27;)
+  server.ext(&#x27;onPostHandler&#x27;, function (request, reply) {
+    var response = request.response
+
+    if (!response.isBoom) {
+      return reply.continue()
+    }
+
+    var is404 = response.output.statusCode === 404
+    var isHtmlRequest = /text\/html/.test(request.headers.accept)
+    var isHoodiePath = /^\/hoodie\//.test(request.path)
+    var isAdminPublicPath = /^\/hoodie\/admin\//.test(request.path) &#x26;&#x26; !(/^\/hoodie\/admin\/api\//).test(request.path)
+
+    if (isAdminPublicPath &#x26;&#x26; isHtmlRequest) {
+      return reply(createReadStream(pathJoin(adminPublicPath, &#x27;index.html&#x27;)))
+    }
+
+    if (isHoodiePath) {
+      return reply.continue()
+    }
+
+    if (is404 &#x26;&#x26; isHtmlRequest) {
+      return reply(createReadStream(app))
+    }
+
+    reply.continue()
+  })
+
+  return next()
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
 
