@@ -29,7 +29,7 @@ instruction
 
 
 
-    // run shared js-env code - pre-init
+    // run shared js-env code - init-before
     (function () {
         // init local
         local = {};
@@ -62,8 +62,8 @@ instruction
 
 
 
-    // post-init
-    // run browser js-env code - post-init
+    // init-after
+    // run browser js-env code - init-after
     /* istanbul ignore next */
     case 'browser':
         local.testRunBrowser = function (event) {
@@ -151,7 +151,7 @@ instruction
 
 
 
-    // run node js-env code - post-init
+    // run node js-env code - init-after
     /* istanbul ignore next */
     case 'node':
         // export local
